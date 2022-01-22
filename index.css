@@ -1,0 +1,58 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+
+.logoImage{
+    width: 200px;
+    height: 50px;
+}
+.nav-item{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+.achievement{
+    background-image: url("Images/bg1.jpg"); 
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.achievement .btn-archieve {
+    margin-top: 33%;
+    border:1px solid #20365e;
+    color: #20365e ;
+    border-radius: 25px;
+}
+.achievement .btn-archieve:hover {
+    background-color:#6c757d ;
+    color: #fff ;
+    border: #6c757d;
+}
+.achievement .btn-archieve:focus {
+    background-color:#6c757d ;
+    color: #fff ;
+    border: #6c757d;
+}
+
+  
+.achievement .btn-archieve:active {
+    transform: translateY(4px);
+  }
+
+.archievement-content{
+    font-size: 15px;
+}
+.content-details{
+   color:maroon;
+}
+span {
+    font-weight: 300;
+}
+.edit-button:hover{
+    color: white !important;
+}
+hr{
+    border: 0px !important;
+}
